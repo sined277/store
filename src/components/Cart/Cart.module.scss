@@ -1,0 +1,130 @@
+.cart {
+    margin-top: 20px;
+
+    &__title {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    &__row {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__product {
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    &__price_qnt {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__total {
+        font-size: 40px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    hr {
+        margin-top: 20px;
+    }
+}
+
+
+
+.cart {
+
+    // .cart__buttons
+
+    &__buttons {
+
+        margin-top: 50px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .cart__sub
+
+    &__sub {
+
+        p {
+            color: grey;
+            margin-bottom: 20px;
+        }
+    }
+}
+.button {
+
+    // .button__clear
+
+    &__clear {
+        border: 1px solid grey;
+        padding: 14px 28px;
+        cursor: pointer;
+        color: grey;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+}
+.sub {
+
+    // .sub__subtotal
+
+    &__subtotal {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 24px;
+            color: grey;
+            letter-spacing: 1.15px;
+        }
+
+        p {
+            font-size: 24px;
+            color: rgb(19, 19, 19);
+            letter-spacing: 1.15px;
+        }
+    }
+}
+.cheacout {
+    background-color: skyblue;
+    color: aliceblue;
+    padding: 14px 28px;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+
+    &__logo {
+        color: #fff;  
+    }
+
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__logo {
+        font-size: 24px;
+    }
+}
+
+.quantity {
+    color: #fff;
+    font-size: 24px;
+    background-color: yellowgreen;
+    padding: 5px 15px;
+    border-radius: 50%;
+}
