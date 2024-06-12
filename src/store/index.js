@@ -3,6 +3,7 @@ import productsSlice from "./slices/productsSlice"
 import { productsApi } from "./slices/productsApi"
 import cartSlice from "./slices/cartSlice";
 
+
 export const store = configureStore({
     reducer: {
         products: productsSlice,
