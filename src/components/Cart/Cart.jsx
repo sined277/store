@@ -9,6 +9,7 @@ import { clearCart } from '../../store/slices/cartSlice'
 
 const Cart = () => {
 
+    
     const cartItems = useSelector(selectCartItems)
     const totalPrice = useSelector(selectTotalPrice)
     const dispatch = useDispatch()
